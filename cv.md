@@ -17,3 +17,30 @@ Having started my career in 2009 as an electrician servicing fire automatics, se
 - JavaScript Basics
 - Git, GitHub
 - VS Code
+
+### Code example:
+
+Find the unique number KATA from Codewars: There is an array with some numbers. All numbers are equal except for one. Try to find it!
+
+```
+function findUniq(arr) {
+  const counter = arr.reduce((acc, item) => {
+    acc[item] = acc[item] ? acc[item] + 1 : 1
+    return acc
+  }, {})
+  const result = Object.keys(counter).filter((item) => counter[item] === 1)
+  return Number(result[0])
+}
+```
+
+### Education:
+
+- **University:** Polotsk National University
+  - Computer modeling and engineering of radio electronic components
+- **Courses:**
+  - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+### Languages:
+
+- Russian - Native
+- English - A2
