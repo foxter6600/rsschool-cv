@@ -32,3 +32,15 @@ function findUniq(arr) {
   return Number(result[0])
 }
 ```
+
+### Education:
+
+- **University:** Polotsk National University
+  - Computer modeling and engineering of radio electronic components
+- **Courses:**
+  - RS Schools Course «JavaScript/Front-end. Stage 0»
+
+### Languages:
+
+- Russian - Native
+- English - A2
